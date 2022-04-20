@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/mint/static/css/main.b45fe9dd.css",
-    "main.js": "/mint/static/js/main.77051a25.js",
+    "main.js": "/mint/static/js/main.d01e90bd.js",
     "static/js/787.0e2c10fe.chunk.js": "/mint/static/js/787.0e2c10fe.chunk.js",
     "static/media/0015.jpg": "/mint/static/media/0015.95914204acd7a8d0d674.jpg",
     "static/media/ROBOROBO_LOGO.png": "/mint/static/media/ROBOROBO_LOGO.e237dadeb0fe86839665.png",
     "index.html": "/mint/index.html",
     "main.b45fe9dd.css.map": "/mint/static/css/main.b45fe9dd.css.map",
-    "main.77051a25.js.map": "/mint/static/js/main.77051a25.js.map",
+    "main.d01e90bd.js.map": "/mint/static/js/main.d01e90bd.js.map",
     "787.0e2c10fe.chunk.js.map": "/mint/static/js/787.0e2c10fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b45fe9dd.css",
-    "static/js/main.77051a25.js"
+    "static/js/main.d01e90bd.js"
   ]
 }
