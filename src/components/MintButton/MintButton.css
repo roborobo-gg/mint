@@ -1,0 +1,36 @@
+.quantity-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.quantity-price p {
+    margin: 0;
+}
+
+.quantity-price .MuiFormControl-root{
+    max-width: 120px;
+}
+
+.mint-button {
+    
+}
+
+.mint-button button{
+    width:100%;
+    padding: 12px 12px;
+    font-size: 1rem;
+    /*border: 1px solid red;*/
+}
+
+.mint-address{
+    border: 1px dashed red;
+    border-radius: 4px;
+    padding: 8px 12px;
+    color: lavenderblush;
+    font-size: 0.6rem;
+    margin-top: auto;
+    margin-bottom: 0;
+    overflow-wrap: break-word;
+}

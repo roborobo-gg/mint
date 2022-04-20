@@ -1,0 +1,48 @@
+
+.robo-face-button {
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+
+    border: 6px solid #171819;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+.robo-face-button > .eye {
+    width: 3px; 
+    height: 10px; 
+    position: absolute;
+}
+.robo-face-button > .eye::after, .robo-face-button > .eye::before {
+    content: '';
+    width: 3px; 
+    height: 10px; 
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: center;
+}
+.robo-face-button > .eye.left {
+    top: calc( 13px - 6px );
+    left: calc( 11px - 6px );
+}
+
+.robo-face-button > .eye.right {
+    top: calc( 13px - 6px );
+    right: calc( 11px - 6px );
+}
+
+.robo-face-button:hover > .eye::before, .robo-face-button.highlight > .eye::before {
+    transform: rotate(35deg);
+}
+
+.robo-face-button:hover > .eye::after, .robo-face-button.highlight > .eye::after {
+    transform: rotate(-35deg);
+}
+
+.highlight {
+    background-color: olivedrab;
+}
