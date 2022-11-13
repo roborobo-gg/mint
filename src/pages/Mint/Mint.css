@@ -178,6 +178,11 @@ a.button {
   font-size: 12px;
 }
 
+#input1 {
+   background-color: #3a101263;
+ 
+}
+
 div.scrollmenu {
     width: 1000px;
     margin-left: -75%;

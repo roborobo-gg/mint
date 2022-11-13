@@ -37,7 +37,7 @@ const Mint = () => {
             <Header></Header>
             <div className="mint-page-wrapper">
                 <div className="content-wrapper">
-		    <input type="image" style={{ display: (isShownMain ? 'block' : 'none') }} src={require('../../assets/capa.jpg')} width="100%" height="200%" onClick={handleClick} />	 
+		    <input id="input1" type="image" style={{ display: (isShownMain ? 'block' : 'none') }} src={require('../../assets/capa.jpg')} width="100%" height="200%" onClick={handleClick} />	 
 		    <div class="scrollmenu" style={{ display: (isShown ? 'block' : 'none') }}>
 			<div class="media-element">
 			    <img style={{ display: (isShown ? 'block' : 'none') }} src={require('../../assets/page1.jpg')} width="100%" height="100%"/>            
