@@ -193,7 +193,7 @@ a.button {
   height: 10%;
   text-align: center;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   font-size: 12px;
 }
 

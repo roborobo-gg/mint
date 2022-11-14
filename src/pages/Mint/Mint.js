@@ -23,12 +23,6 @@ const Mint = () => {
     today.setHours(17, 59, 59, 998);
     const now = new Date();
 
-    let isShownLink = false
-    let isShownHold = true
-    if(now > today) {
-	isShownLink = true
-	isShownHold = false
-    }
     
     useEffect(() => {
         function handleResize() {
@@ -65,8 +59,7 @@ const Mint = () => {
 			    <img style={{ display: (isShown ? 'block' : 'none') }} src={require('../../assets/03_ROBODOINGTHINGS.jpg')} width="100%" height="100%"/>            
 
 		    	    <p></p>
-			    <p style={{ display: (isShownHold ? 'block' : 'none') }}>Soon </p>
-			    <p><a href="https://pay.nmkr.io/?p=4cd1db93629f4d7ea90a7c7d246a4cbd&c=1" style={{ display: (isShownLink ? 'inline-block' : 'none') }} class="button">Mint Here</a></p>
+			    <p><a href="https://pay.nmkr.io/?p=4cd1db93629f4d7ea90a7c7d246a4cbd&c=1" class="button">Mint Here</a></p>
 			</div>
 
 		    </div>
