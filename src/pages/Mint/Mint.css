@@ -130,7 +130,7 @@ footer{
     display: block;
 }
 /* For desktop: */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .mint-page-wrapper {
         align-items: center;
         justify-content: center;
@@ -165,6 +165,24 @@ footer{
         justify-content: space-between;
         padding: 16px;
     }
+
+    div.scrollmenu {
+	width: 300px;
+	background-color: #3a101263;
+	overflow-x: auto;
+	white-space: nowrap;
+    }
+
+    div.scrollmenu div {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	width: 100px;
+	height: 100%;
+    }
+
 }
 
 a.button {
@@ -185,8 +203,9 @@ a.button {
 }
 
 div.scrollmenu {
-    width: 1000px;
-    margin-left: -75%;
+    display: flex;
+    width: 600px;
+    margin-left: -25%;
     background-color: #3a101263;
     overflow: auto;
     white-space: nowrap;
@@ -201,6 +220,7 @@ div.scrollmenu div {
   width: 250px;
   height: 100%;
 }
+
 
 div.scrollmenu a:hover {
   background-color: #777;
