@@ -40,16 +40,20 @@ const Mint = () => {
 		    <input id="input1" type="image" style={{ display: (isShownMain ? 'block' : 'none') }} src={require('../../assets/capa.jpg')} width="100%" height="200%" onClick={handleClick} />	 
 		    <div class="scrollmenu" style={{ display: (isShown ? 'block' : 'none') }}>
 			<div class="media-element">
+			    <p> PAGE 01 </p>
+			    <p></p>
 			    <img style={{ display: (isShown ? 'block' : 'none') }} src={require('../../assets/page1.jpg')} width="100%" height="100%"/>            
 
 		    	    <p></p>
 			    <p>Sold Out </p>
 			</div>
 			<div class="media-element">
+			    <p> PAGE 02 </p>
+			    <p></p>
 			    <img style={{ display: (isShown ? 'block' : 'none') }} src={require('../../assets/03_ROBODOINGTHINGS.jpg')} width="100%" height="100%"/>            
 
 		    	    <p></p>
-			    <a href="" class="button">Soon </a>
+			    <p>Soon </p>
 			</div>
 
 		    </div>
@@ -60,7 +64,7 @@ const Mint = () => {
 			<p className="disclaimer">
 			    <span className="color-gold">IMPORTANT</span><br/>
 			    Do not send ADA from an exchange wallet. We suggest using a wallet like Nami, Eternl, Yoroi, or Daedalus.<br/><br/> 
-			    Please send the exact ADA (Cardano) amount described. After the purchase is confirmed, you will receive a ROBOROBO First Page into your ADA wallet.<br/><br/> 
+			    Please send the exact ADA (Cardano) amount described. After the purchase is confirmed, you will receive a ROBOROBO ODYSSEY page into your ADA wallet.<br/><br/> 
 			    If you send the incorrect amount or if it's already sold out, you'll be refunded.
 			</p>
 		    </div>
