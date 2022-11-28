@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/mint/static/css/main.d409055e.css",
-    "main.js": "/mint/static/js/main.0b49074d.js",
+    "main.css": "/mint/static/css/main.21e63544.css",
+    "main.js": "/mint/static/js/main.316e9508.js",
     "static/js/787.0e2c10fe.chunk.js": "/mint/static/js/787.0e2c10fe.chunk.js",
     "static/media/03_ROBODOINGTHINGS.jpg": "/mint/static/media/03_ROBODOINGTHINGS.d24c8ffc2028c1d87cb5.jpg",
+    "static/media/04_ROBODOINGTHINGS.jpeg": "/mint/static/media/04_ROBODOINGTHINGS.220c9d7200d935d3230d.jpeg",
     "static/media/capa.jpg": "/mint/static/media/capa.a7c5cc750f1b3974d9d2.jpg",
     "static/media/page1.jpg": "/mint/static/media/page1.72fa6e9bad9424fde511.jpg",
     "static/media/0015.jpg": "/mint/static/media/0015.95914204acd7a8d0d674.jpg",
     "static/media/ROBOROBO_LOGO.png": "/mint/static/media/ROBOROBO_LOGO.e237dadeb0fe86839665.png",
     "index.html": "/mint/index.html",
-    "main.d409055e.css.map": "/mint/static/css/main.d409055e.css.map",
-    "main.0b49074d.js.map": "/mint/static/js/main.0b49074d.js.map",
+    "main.21e63544.css.map": "/mint/static/css/main.21e63544.css.map",
+    "main.316e9508.js.map": "/mint/static/js/main.316e9508.js.map",
     "787.0e2c10fe.chunk.js.map": "/mint/static/js/787.0e2c10fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d409055e.css",
-    "static/js/main.0b49074d.js"
+    "static/css/main.21e63544.css",
+    "static/js/main.316e9508.js"
   ]
 }
