@@ -204,8 +204,8 @@ a.button {
 
 div.scrollmenu {
     display: flex;
-    width: 600px;
-    margin-left: -25%;
+    width: 800px;
+    margin-left: -45%;
     background-color: #3a101263;
     overflow: auto;
     white-space: nowrap;
