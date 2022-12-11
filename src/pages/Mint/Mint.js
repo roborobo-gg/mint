@@ -68,7 +68,16 @@ const Mint = () => {
 			    <img style={{ display: (isShown ? 'block' : 'none') }} src={require('../../assets/04_ROBODOINGTHINGS.jpeg')} width="100%" height="100%"/>            
 
 		    	    <p></p>
-			    <p><a href="https://pay.nmkr.io/?p=f334f7e9221d46738755ed4232eb611c&c=1" class="button">Mint Here</a></p>
+			    <p>Sold Out </p>
+			
+			</div>
+			<div class="media-element">
+			    <p> PAGE 04 </p>
+			    <p></p>
+			    <img style={{ display: (isShown ? 'block' : 'none') }} src={require('../../assets/05_ROBODOINGTHINGS.jpg')} width="100%" height="100%"/>            
+
+		    	    <p></p>
+			    <p><a href="https://pay.nmkr.io/?p=69c2a9002a324fa392d060e9bbc4d433&c=1" class="button">Mint Here</a></p>
 			
 			</div>
 
