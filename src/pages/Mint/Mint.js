@@ -77,7 +77,8 @@ const Mint = () => {
 			    <img style={{ display: (isShown ? 'block' : 'none') }} src={require('../../assets/05_ROBODOINGTHINGS.jpg')} width="100%" height="100%"/>            
 
 		    	    <p></p>
-			    <p><a href="https://pay.nmkr.io/?p=69c2a9002a324fa392d060e9bbc4d433&c=1" class="button">Mint Here</a></p>
+	    /*<p><a href="https://pay.nmkr.io/?p=69c2a9002a324fa392d060e9bbc4d433&c=1" class="button">Mint Here</a></p>*/
+	                    <p>Sold Out </p>
 			
 			</div>
 
